@@ -22,7 +22,8 @@ Python-3.5.1.tar.xz (这个是pthon的源码)
 
 cd python-3.5.1
 
-执行 ./configure --prefix=/usr/local/python/python3 命令。./configure命令执行完毕之后创建一个文件creating Makefile，供下面的make命令使用 执行make install之后就会把程序安装到我们指定的目录中去。
+执行 ./configure --prefix=/usr/local/python/python3 命令。
+./configure命令执行完毕之后使用make&make install命令之后就会把程序安装到我们指定的目录中去。
 
 Configure是一个可执行脚本，它有很多选项，在待安装的源码路径下使用命令./configure –help输出详细的选项列表。
 
